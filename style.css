@@ -8,7 +8,6 @@ section {
     article {
         width: 250px;
         height: 250px;
-        background: url(./imagenes/a.jpg);
         background-repeat: no-repeat;
         background-position: 0%;
         background-size: contain;
@@ -47,6 +46,18 @@ section {
   align-items: center;
   justify-content: center;
   gap: 1.5em;
+  
+  article div {
+    padding: .5em;
+    background-color: lightblue;
+    border: 1px solid lightblue;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
 }
 
 button {
